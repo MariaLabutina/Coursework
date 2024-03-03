@@ -80,6 +80,7 @@ namespace Coursework
                    
                 }
             }
+            
             pictureBox1.Image = btm;
         }
         Palette palette = new Palette();

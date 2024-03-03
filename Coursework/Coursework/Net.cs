@@ -12,7 +12,8 @@ namespace Coursework
         public Byte[,] grid;
         public int Width;
         public int Height;
-        public ArrayNet[] arrayNets;
+        public  ArrayNet[] arrayNets;
+
 
         public Net(int height, int width)
         {

@@ -31,7 +31,9 @@ namespace Coursework
         {
             this.dataGridSymbols = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSymbols)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridSymbols
@@ -66,16 +68,26 @@ namespace Coursework
             this.Column1.ReadOnly = true;
             this.Column1.Width = 125;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(12, 377);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(398, 186);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Palette
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(912, 575);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridSymbols);
             this.Name = "Palette";
             this.Text = "Palette";
             this.Load += new System.EventHandler(this.Palette_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridSymbols)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -84,5 +96,6 @@ namespace Coursework
 
         private System.Windows.Forms.DataGridView dataGridSymbols;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

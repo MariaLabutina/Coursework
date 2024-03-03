@@ -9,12 +9,14 @@ namespace Coursework
 {
     class ArrayNet
     {
-        public string symbol;
-        public Brush symbolColor;
-        public Brush backgroundColor;
+        public string symbol { get; set; }
+        public Brush symbolColor { get; set; }
+        public Brush backgroundColor { get; set; }
 
         public ArrayNet()
         {
         }
+
+        
     }
 }
